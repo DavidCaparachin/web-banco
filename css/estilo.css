@@ -1,0 +1,120 @@
+:root{
+    --plomo: #5F6062;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.tipo-letra{
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color: var(--plomo);
+
+}
+.importante{
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    color: #20a3ff;
+    }
+.hamburguesa{
+   border-color: var(--plomo);
+}
+
+.segnav{
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    color: #20a3ff;
+}
+.btn-ghost{
+    position: relative;
+    display: inline-block;
+    border: 2px solid #A7A9AC;
+    padding: 3px 5px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: #A7A9AC;
+    font-family: Helvetica, sans-serif;
+    border-radius: 5%;
+}
+.btn-seguro{
+    position: relative;
+    display: inline-block;
+    border: 2px solid #20a3ff;
+    padding: 3px 5px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: #20a3ff;
+    font-family: Helvetica, sans-serif;
+    border-radius: 5%;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    top: -100px;
+    /* animation: banner 10 s infinite linear alternate; */
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    position: relative;
+
+}
+.btn-tama{
+    position: relative;
+    width: 30px;
+   
+}
+.espacio{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid white;
+    padding: 40px 0px 30px 0px;
+    border-top: 1ox solid white;
+}
+#fondo{
+    width: 100%;
+    height: 600px;
+    /* background-image: url(personas.png); */
+    background-image: url(/img/personas.png);
+   
+ 
+    background-size: cover;
+    background-position: center;
+
+}
+
+#fondo h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+.fondo-text{
+    position: relative;
+    display: inline-block;
+    
+    padding: 3px 5px;
+    color: #20a3ff;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    font-family: Helvetica, sans-serif;
+    border-radius: 5%;
+}
+.color-ver{
+    color: #C4D600;
+}
+.medio{
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    color: #20a3ff;
+    }
+
